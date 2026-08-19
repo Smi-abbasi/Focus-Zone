@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus-Zone BY SMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <div class="brand">
+
+        <h1 id="logo" >⏳ Focus Zone</h1>
+
+        <p class="tagline" style=" text-align:center">
+            Stay Productive • Stay Consistent
+        </p>
+
+    </div>
+
+   <div class="header-info">
+
+        <h2 id="greeting" >Good Morning 👋</h2>
+
+        <p class="header-quote" >
+            Small progress every day leads to extraordinary results.
+        </p>
+
+    <h2 id="clock">00:00:00 AM</h2>
+
+    </div>
+
+</header>
+    <main>
+        <!todo section>
+        <section class="todo-card">
+
+    <div class="card-header">
+        <h2 >📋 Today's Priorities</h2>
+        <span>Maximum 3 Tasks</span>
+    </div>
+
+    <p class="subtitle">
+        What's the most important thing you'll accomplish today?
+    </p>
+
+    <label for="task-input">
+        Add Your Next Goal
+    </label>
+
+    <div class="input-group">
+
+        <input
+            type="text"
+            id="task-input"
+            placeholder="e.g. Complete JavaScript Assignment">
+
+        <button id="add-btn">
+            ➕ Add
+        </button>
+
+    </div>
+    
+
+<ul id="task-list"></ul>
+
+<div id="no-tasks" style="text-align: center;">
+    <span>📝</span>
+    <p>No tasks yet</p>
+    <small>Add your first goal to get started.</small>
+</div>
+
+    <ul id="task-list"></ul>
+
+        </section>
+        <!timer section> 
+       <section class="timer-card">
+
+    <div class="card-header">
+        <h2>🍅 Focus Session</h2>
+        <span>30 Minutes</span>
+    </div>
+
+    <p class="subtitle">
+        One session. One goal. Zero distractions.
+    </p>
+
+<div class="timer-circle">
+    <div id="timer">30:00</div>
+</div>
+    <div class="timer-controls">
+
+        <button id="start-btn">▶ Start</button>
+
+        <button id="pause-btn">⏸ Pause</button>
+
+        <button id="reset-btn">🔄 Reset</button>
+
+    </div>
+
+    <div class="focus-tip" style="background:linear-gradient(135deg,var(--primary),var(--secondary)); color:aliceblue"
+>
+
+        💡 Discipline is choosing what you want most over what you want now.
+                              
+
+    </div>
+
+</section>
+
+    </main>
+    
+    <footer>
+      <p>© 2026 Focus Zone | Designed & Developed by <strong style="color:white;">SMI</strong></p>
+      <p>Stay Focused. Stay Consistent. 🚀</p>
+    </footer>
+    <script src="app.js" >
+
+    </script>
+</body>
+</html>
