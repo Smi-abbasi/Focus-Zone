@@ -2,6 +2,10 @@
 
 A simple productivity dashboard built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Focus Zone Dashboard](focus-zone.png)
+
 ## Features
 
 - Task management
